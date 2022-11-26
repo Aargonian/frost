@@ -8,7 +8,7 @@ path = "src/lib.rs"
 name = "frost"
 
 [[bin]]
-path = "src/main.rs"
+path = "src/bin/main.rs"
 name = "demo"
 description = "Temporary demo program for development purposes"
 
