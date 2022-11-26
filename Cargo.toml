@@ -3,7 +3,14 @@ name = "frost"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+path = "src/lib.rs"
+name = "frost"
+
+[[bin]]
+path = "src/main.rs"
+name = "demo"
+description = "Temporary demo program for development purposes"
 
 [dependencies]
 eframe = "0.19.0"
